@@ -5,6 +5,9 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'Bermwood',
+    author: 'Olakorede Salami'
+  },
   plugins: [],
 }

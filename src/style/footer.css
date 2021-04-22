@@ -1,0 +1,42 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    color: blue;
+    margin: 10px 0px;
+}
+
+footer > p {
+    color: rgb(119, 118, 118);
+}
+
+li.footer-list {
+    color: rgb(119, 118, 118);
+}
+
+.footer-all-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-list {
+    list-style: none;
+    border-right: 0.5px solid rgba(255, 255, 255, 0.192);
+    margin-right: 5px;
+    padding-right: 10px;
+}
+
+footer > p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 440px) {
+    footer {
+        font-size: 0.7rem;  
+    }
+    footer > p {
+        font-size: 0.7rem;
+    }
+}

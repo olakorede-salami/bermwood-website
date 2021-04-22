@@ -1,0 +1,1108 @@
+.landing-main{
+    background-image: url('https://i.ibb.co/zR5wNKP/Jason-Hawkes-1807-original-Lo-1.png');
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dream-div {
+    width: 70%;
+    text-align: center;
+}
+
+.arrow-slider {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+
+.arrow {
+    width: 20%;
+    cursor: pointer;
+    transition: 1s all ease;
+}
+.arrow:hover {
+    width: 25%;
+}
+
+.fa-caret-down{
+    font-size: 100px;
+}
+
+.dream-big {
+    padding: 20px 0px;
+    text-align: center;
+    width: 100vw;
+    line-height: 2;
+    background-color: #0a2546;
+    display: flex;
+}
+
+.dream-big-text {
+    width: 80%;
+    margin: auto;
+}
+
+.dream-big-text > p {
+    margin-bottom: 20px;
+}
+
+.landing-testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.testimonials-image {
+    width: 500px;
+    align-self: center;
+}
+
+.testimonials-div {
+    width: 30%;
+    text-align: center;
+    align-self: center;
+    line-height: 2;
+    margin-left: 10px;
+}
+
+/* @media only screen and (max-width: 1300px) {
+    .landing-gallery-image  {
+      width: 0px;
+    }
+  }
+@media only screen and (max-width: 1140px) {
+    .landing-gallery-image  {
+      width: 300px;
+    }
+  } */
+@media only screen and (max-width: 985px) {
+    .testimonials-image  {
+        width: 400px;
+      }
+      .landing-gallery-image {
+          width: 250px !important;
+      }
+  }
+
+.landing-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px 100px 0px;
+    background-color: #0a2546;
+}
+.landing-gallery-text {
+    margin-bottom: 50px;
+}
+
+.landing-gallery-div-images {
+    margin-left: 20px;
+}
+
+.footer-image {
+    background-image: url('https://i.ibb.co/bPrL90Y/Jason-Hawkes-1807-original-Lo.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 30vh;
+    margin-top: 10px;
+}
+
+.btn{
+    border: none;
+    color: white;
+    background-color: #b47d03;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all ease;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    margin: 5px auto;
+}
+
+.btn::before {
+    content: '';
+    background-color: #20588d;
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: all 1s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 2000px;
+    z-index: -1;
+}
+
+.btn:hover::before{
+    height: 300px;
+}
+
+.developments-button {
+    border: none;
+    color: white;
+    background-color: #b47d03;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all ease;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    margin: 5px auto;
+}
+
+.developments-button::before {
+    content: '';
+    background-color: #20588d;
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: all 1s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 2000px;
+    z-index: -1;
+}
+
+.developments-button::after {
+    height: 300px;
+}
+
+.our-story-main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 74vh;
+}
+
+.our-story-content{
+    border: 1px solid #b47d03;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* height: 60%; */
+    padding: 50px;
+    background-color: #00142e;
+}
+
+.our-story-paragraph {
+    margin-bottom: 20px;
+}
+
+.our-story-content > p {
+    font-size: 1.1rem;
+}
+
+.our-story-background {
+    background-image: url('https://i.ibb.co/bPrL90Y/Jason-Hawkes-1807-original-Lo.jpg');
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-story-img {
+    width: 200px;
+    position: relative;
+    bottom: 40px;
+    left: 250px;
+}
+
+.our-story-ceo {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+    margin-bottom: 20px;
+}
+
+.our-story-title {
+    /* text-decoration: underline #b47d03; */
+    border-bottom: 4px solid #b47d03;
+}
+
+
+.developments-top-div {
+    background-image: url('https://i.ibb.co/zR5wNKP/Jason-Hawkes-1807-original-Lo-1.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.development-tool {
+    font-size: 40px;
+}
+
+.developments-logo-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.developments-top-text, 
+.development-services, 
+.development-choose {
+    width: 70vw;
+    margin-bottom: 50px;
+}
+
+.developments-h3{
+    color: #b47d03;
+    text-align: center;
+}
+
+.development-list {
+    text-align: center;
+    text-decoration: none;
+}
+
+.development-list > li {
+    list-style: none;
+    position: relative;
+}
+.development-list-one > li {
+    position: relative;
+    right: 60px;
+}
+
+.developments-logo-header{
+}
+
+.development-services {
+    display: flex;
+    flex-direction: column;
+}
+
+.development-services > ul {
+    padding-left: 150px;
+}
+
+.development-choose > ul {
+    padding-left: 50px;
+}
+
+
+.developments-slide-show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a2546;
+    padding: 50px 0px;
+}
+
+.development-slide-image {
+    width: 400px;
+    max-height: 300px;
+    margin-right: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-background {
+    background-image: url('https://i.ibb.co/bPrL90Y/Jason-Hawkes-1807-original-Lo.jpg');
+    background-size: cover;
+}
+
+.contact-form-div {
+    background-color: #063076;
+    height: 65vh;
+    width: 50vw;
+    margin: 50px auto;
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.inputs {
+    color: black;
+    width: 80%;
+    height: 1rem;
+    padding: 10px;
+}
+
+
+
+.select {
+    color: black;
+    width: 85%;
+    height: 30px;
+}
+
+.textarea {
+    color: black;
+    width: 85%;
+    height: 200px;
+}
+
+.contact-form > button {
+    padding: 10px;
+    background-color: #1c5396;
+    border: 1px solid white;
+    width: 200px;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-overlay {
+    z-index: 3;
+    height: 100%;
+    width: 100vw;
+    background: rgba(3,46,84, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.developments-contact-h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.guarenteed-rent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.guarenteed-rent > h1 {
+    border-bottom: 4px solid #b47d03;
+}
+
+.guarenteed-rent-p1 {
+    width: 50vw;
+}
+::placeholder {
+    font-family: Helvetica;
+    font-size: 0.9rem;
+}
+
+textarea::placeholder {
+    padding: 10px 0px 0px 10px;
+}
+
+.guarenteed-rent-p2 {
+    width: 50vw;
+    text-align: center;
+}
+
+.guarenteed-rent-p2 > ul {
+    list-style: none;
+}
+
+.guarenteed-rent-p1 > h3 {
+    color: #b47d03;
+}
+
+.guarenteed-rent-p1 > p, h3 {
+    margin-bottom: 10px;
+}
+
+.guarenteed-rent > h1{
+    margin: 30px 0px;
+}
+
+.guarenteed-rent-p1, .guarenteed-rent-p2 {
+    margin-bottom: 30px;
+}
+
+.guarenteed-faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.guarenteed-faq > h1 {
+    color: #b47d03;
+    margin: 50px 0px 60px 0px;
+}
+
+.guarenteed-faq-p {
+    text-align: left;
+    width: 50vw;
+    margin-bottom: 50px;
+}
+
+.guarenteed-faq-p > h2 {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px;
+}
+.gallery > h1 {
+    margin-bottom: 30px;
+    border-bottom: 4px solid #b47d03;
+}
+
+.gallery-img-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80vw;
+    justify-content: center;
+}
+
+.gallery-img {
+    width: 360px;
+    height: 40vh;
+    margin: 0px 10px 10px 0px;
+    opacity: 0.3;
+}
+
+.gallery-img:hover{
+    width: 400px;
+    height: 42vh;
+    transition: 0.5s all ease;
+    opacity: 1;
+}
+
+.testimonials{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.testimonials-page{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.testimony{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    right: 9%;
+}
+
+.testimony-page{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    margin: 30px 20px;
+}
+
+.testimony-top {
+    background-color: #0a2546;
+    padding: 30px;
+}
+
+.testimony-bottom {
+    background-color: #b47d03;
+    height: 50px;
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.testimony-top-page {
+    background-color: #0a2546;
+    padding: 30px;
+}
+
+.testimony-bottom-page {
+    background-color: #b47d03;
+    height: 50px;
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.testimonials-h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 50px 40px 0px 0px;
+}
+
+.burger div {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    position: relative;
+    margin: 5px;
+}
+
+.responsive-menu{
+    width: 100vw;
+    height: 100%;
+    background-color: #00142e;
+    position: absolute;
+    left: 0px;
+    display: none;
+}
+
+.responsive-menu-hidden{
+    display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+
+}
+@media only screen and (max-width: 1100px) {
+    .contact-form-div {
+        height: 50vh;
+    }
+    .gallery-img {
+        opacity: 1;
+        width: 95vw;
+    }
+    .burger  {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin: 50px 40px 0px 0px;
+      }
+    
+    .burger div {
+        width: 38px;
+        height: 7px;
+        background-color: white;
+        position: relative;
+        margin: 5px;
+    }
+  
+    .responsive-menu {
+        position: fixed;
+        right: 100%;
+        top: 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+        transition: 1s all ease;
+    }
+    .responsive-menu-icons{
+      display: flex;
+      flex-wrap: wrap;
+      height: 100vh;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .responsive-menu-icon {
+      margin: 0px 30px;
+      width: 75px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .icons1{
+        width: 125px !important;
+        height: 125px !important;
+    }
+    .icons {
+      font-size: 3rem !important;
+      margin-bottom: 20px;
+  }
+  
+  .responsive-menu-h1 {
+      font-size: 1em;
+  }
+    .nav-list {
+        display: none;
+      }
+  
+}
+
+@media only screen and (max-width: 750px) {
+    p {
+        font-size: 1rem;
+    }
+    .testimonials-image  {
+        width: 320px;
+      }
+      .testimonials-div {
+          width: 80%;
+      }
+    .dream-big{
+        padding: 20px;
+    }
+    .nav-list{
+        display: none;
+    }
+    .burger  {
+      display: block;
+      position: absolute;
+      top: -39px;
+      right: -20px;
+      margin: 50px 40px 0px 0px;
+    }
+
+    .responsive-menu{
+        position: fixed;
+        right: 100%;
+        top: 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+        transition: 1s all ease;
+    }
+
+    .responsive-menu-icons{
+        display: flex;
+        flex-wrap: wrap;
+        height: 80vh;
+        justify-content: space-evenly;
+      }
+
+      .responsive-menu-icon {
+        margin: 0px 30px;
+        width: 75px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .icons1{
+          width: 125px !important;
+          height: 125px !important;
+      }
+      .icons {
+        font-size: 3rem !important;
+        margin-bottom: 20px;
+    }
+    .responsive-menu-h1 {
+        font-size: 1em;
+    }
+
+    .arrow{
+        display: none;
+    }
+  }
+
+  .landing-gallery-image {
+      width: 300px;
+      margin-top: 30px;
+      margin-right: 20px;
+  }
+
+  .landing-gallery-div-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .our-story-content > p {
+    font-size: 1rem;
+}
+
+.our-story-ceo {
+    font-size: 1rem;
+    /* margin-top: 75px; */
+}
+
+  @media only screen and (max-width: 600px) {
+      .landing-testimonials {
+          flex-direction: column;
+      }
+      .testimonials-div {
+          margin-bottom: 20px;
+      }
+      .landing-gallery-image {
+        width: 150px;
+    }
+    .dream-div > h1 {
+        margin-bottom: 10px;
+    }
+    .our-story-content > p {
+        font-size: 0.8rem;
+    }
+    
+    .our-story-paragraph {
+        margin-bottom: 30px;
+    }
+
+    .our-story-ceo {
+        font-size: 0.8rem;
+    }
+
+    .our-story-ceo > p {
+        font-size: 0.8rem;
+    }
+    .our-story-ceo {
+        font-size: 1rem;
+        margin-right: 0px;
+    }
+    .contact-form-div {
+        width: 70vw;
+        padding: 25px;
+    }
+
+    .inputs {
+        color: black;
+        width: 90%;
+        height: 1rem;
+        padding: 10px;
+    }
+    
+    
+    .select {
+        color: black;
+        width: 99%;
+    }
+    
+    .textarea {
+        color: black;
+        width: 98%;
+        height: 200px;
+    }
+    .contact-form-div {
+        height: 60vh;
+    }
+
+  }
+
+  @media only screen and (max-width: 430px){
+      .responsive-menu {
+          position: fixed;
+          right: 100%;
+          top: 0;
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          align-items: flex-start;
+          transition: 1s all ease;
+      }
+      .responsive-menu-icons{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .responsive-menu-icon {
+        margin: 0px 30px;
+        width: 75px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .icons1{
+          width: 125px !important;
+          height: 125px !important;
+      }
+      .icons {
+        font-size: 3rem !important;
+        margin-bottom: 20px;
+    }
+    
+    .responsive-menu-h1 {
+        font-size: 1em;
+    }
+    .our-story-content {
+        padding: 30px;
+        width: 80vw;
+        height: 45vh;
+    }
+    .our-story-ceo {
+        margin-bottom: 0px !important;
+    }
+    .our-story-main-div {
+        margin-top: 10px;
+    }
+    .contact-form-div {
+        height: 65vh;
+    }
+    .testimony{
+        width: 80vw;
+    }
+    .left-arrow{
+        font-size: 40px;
+        z-index: 1;
+        position: relative !important;
+        top: 21% !important;
+        cursor: pointer;
+    }
+    .right-arrow{
+        font-size: 40px;
+        z-index: 1;
+        position: relative !important;
+        top: 21% !important;
+        left: 82% !important;
+        cursor: pointer;
+    }
+  }
+
+  @media only screen and (max-width: 385px) {
+    .our-story-ceo {
+        top: 20px;
+    }
+    .select{
+        margin-bottom: 15px;
+    }
+    .textarea {
+        margin-bottom: 15px;
+    }
+    .inputs {
+        margin-bottom: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .our-story-content {
+        padding: 30px;
+        width: 80vw;
+        height: 45vh;
+    }
+    .our-story-ceo {
+        margin-bottom: 0px !important;
+        top: 0px;
+    }
+    .contact-form-div {
+        height: 70vh;
+    }
+    .inputs {
+        margin-bottom: 15px;
+    }
+    .contact-form > h2 {
+        margin-bottom: 10px;
+    }
+    .select{
+        margin-bottom: 15px;
+    }
+    .textarea {
+        margin-bottom: 15px;
+    }
+    /* .select{
+        height: ;
+    } */
+  }
+
+  @media only screen and (max-width: 340px) {
+    .icons1{
+          width: 100px;
+          height: 100px;
+      }
+
+      .responsive-menu-icon {
+        margin: 0px 10px;
+        width: 75px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .responsive-menu-icons {
+          align-items: center;
+      }
+
+      .testimonials-image  {
+        width: 240px;
+      }
+
+      .landing-gallery-image {
+        width: 130px;
+        margin-top: 30px;
+    }
+    .our-story-content {
+        padding: 15px;
+        width: 81vw;
+        height: 57vh;
+    }
+    .our-story-ceo {
+        margin-bottom: 0px !important;
+    }
+    .contact-form-div {
+        height: 70vh;
+    } 
+    .inputs {
+        margin-bottom: 15px;
+    }
+    .select{
+        margin-bottom: 15px;
+    }
+    .textarea {
+        margin-bottom: 15px;
+    }
+  }
+  
+  .icons {
+      font-size: 5rem;
+      margin-bottom: 20px;
+  }
+
+  .icons1 svg path {
+      color: #b47d03;
+  }
+  
+  .exit svg path {
+      color: #b47d03;
+      font-size: 5rem;
+  }
+
+
+
+  .icons1 {
+      border: 1px solid white;
+      height: 200px;
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  .resposive-menu-whole{
+      display: flex;
+  }
+
+  .exit {
+     display: none;
+  }
+
+  .contact-page-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-top: 100px;
+  }
+
+  .contact-page-bermwood {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+  
+  .contact-page-bermwood-touch > h2 {
+      margin-bottom: 50px;
+      font-size: 2rem;
+  }
+
+  .contact-page-form-div {
+    margin: 0px;
+  }
+
+  .contact-map {
+      width: 100vw;
+  }
+
+  .contact-page-header {
+      text-align: center;
+      margin: 20px 0px;
+  }
+
+  .responsive-menu-close-hidden {
+      display: none;
+  }
+
+  .close-button svg path {
+      font-size: 50px !important;
+      z-index: 5;
+      color: #b47d03;
+  }
+
+
+  .responsive-menu-close {
+      font-size: 30px !important;
+  }
+
+  .close-button {
+      margin: 10px;
+  }
+
+  .responsive-menu-icon svg path {
+      color: #b47d03 ;
+  }
+
+  .left-arrow{
+      font-size: 40px;
+      z-index: 1;
+      position: relative;
+      top: 20%;
+      cursor: pointer;
+  }
+  .right-arrow{
+      font-size: 40px;
+      z-index: 1;
+      position: relative;
+      top: 20%;
+      left: 85%;
+      cursor: pointer;
+  }
+
+  .testimonials-slider{
+    position: relative;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimony-slider{
+    width: 30vw;
+  }
+  
+
+  .testimonial-slide {
+      display: flex;
+      position: relative;
+  }

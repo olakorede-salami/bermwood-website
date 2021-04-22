@@ -1,0 +1,22 @@
+html {
+    width: 100%
+}
+
+body {
+    background-color: #00142e;
+    overflow-x: hidden;
+    font-family: Helvetica;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+p {
+    font-size: 1.3rem;
+}
+
+.layout-div {
+    overflow-x: hidden;
+}
