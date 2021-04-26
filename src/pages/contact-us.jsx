@@ -6,28 +6,9 @@ const ContactUs = () => {
         <Layout>
             <div>
                 <h1 className="contact-page-header">Contact Us</h1>
-                <iframe className="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.0503606971115!2d-0.07694428396404165!3d51.49394331950758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876036a7583d23b%3A0x893b264450ac3f0b!2sArtesian%20House%2C%20136%20Grange%20Rd%2C%20Bermondsey%2C%20London%20SE1%203GF!5e0!3m2!1sen!2suk!4v1615317121737!5m2!1sen!2suk" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                <iframe className="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.0503606971115!2d-0.07694428396404165!3d51.49394331950758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876036a7583d23b%3A0x893b264450ac3f0b!2sArtesian%20House%2C%20136%20Grange%20Rd%2C%20Bermondsey%2C%20London%20SE1%203GF!5e0!3m2!1sen!2suk!4v1615317121737!5m2!1sen!2suk" width="600" height="450" allowFullScreen="" loading="lazy"></iframe>
                 <div className="contact-page-content">
-                {/* <div className="contact-form-div contact-page-form-div">
-                <form action="" className="contact-form contact-page-form">
-                <h2>Get In Touch</h2>
-                <input type="text" placeholder="Full Name:" />
-                <select name="get-in-touch">
-                    <option value="" disabled selected>How did you hear about us?</option>
-                    <option value="google">Google</option>
-                    <option value="instagram">Instagram</option>
-                    <option value="word-of-mouth">Word of Mouth</option>
-                </select>
-                <input type="text" placeholder="Contact No:" />
-                <input type="email" placeholder="Email:" />
-                <textarea placeholder="Message:" />
-                <button className="developments-button" type="submit">Send</button>
-                </form>
-                </div> */}
-
                 <Contact />
-
-
                 <div className="contact-page-bermwood">
                     <div className="contact-page-bermwood-touch">
                     <h2>BERMWOOD TOUCH</h2>

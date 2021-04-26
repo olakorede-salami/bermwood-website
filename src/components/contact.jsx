@@ -5,8 +5,7 @@ import emailjs from 'emailjs-com';
 const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
-
-        emailjs.sendForm('service_o6k81d4', 'template_wb0lmcl', e.target, 'user_qUOSITscrD2ML3fPrEGws')
+        emailjs.sendForm(process.env.GATSBY_YOUR_SERVICE_ID, process.env.GATSBY_YOUR_TEMPLATE_ID, e.target, process.env.GATSBY_OUR_USER_ID)
           .then((result) => {
               console.log(result.text);
           }, (error) => {
