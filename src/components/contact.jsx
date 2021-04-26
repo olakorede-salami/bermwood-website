@@ -1,25 +1,35 @@
 import React from 'react';
 import '../style/pages.css'
-
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_o6k81d4', 'template_wb0lmcl', e.target, 'user_qUOSITscrD2ML3fPrEGws')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset();
+    }
+
     return(
         <div className="contact">
-        <div className="contact-background">
-        <div className="contact-overlay">
         <div className="contact-form-div">
-        <form action="" className="contact-form">
+        <form  onSubmit={sendEmail} action="" className="contact-form">
         <h2>Get In Touch</h2>
-        <input className="inputs"type="text" placeholder="Full Name:" />
-        <select className="select" name="get-in-touch">
+        <input className="inputs" type="text" placeholder="Full Name:" name="name"/>
+        <select className="select" name="touch">
             <option value="" disabled selected>How did you hear about us?</option>
             <option value="google">Google</option>
             <option value="instagram">Instagram</option>
             <option value="word-of-mouth">Word of Mouth</option>
         </select>
-        <input className="inputs"type="text" placeholder="Contact No:" />
-        <input className="inputs"type="email" placeholder="Email:" />
-        <textarea className="textarea" placeholder="Message:" />
+        <input className="inputs"type="text" placeholder="Contact No:" name="number"/>
+        <input className="inputs"type="email" placeholder="Email:" name="email"/>
+        <textarea className="textarea" placeholder="Message:" name="message"/>
         <button className="developments-button" type="submit">Send</button>
         </form>
         </div>
@@ -31,8 +41,6 @@ const Contact = () => {
             <br />
             <p>Email: info@bermwoodestates.com</p>
             <p>Phone: +44 (0) 7387179122 / +44 (0)7576283535</p>
-        </div>
-        </div>
         </div>
      </div>
     )

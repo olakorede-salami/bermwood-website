@@ -2,6 +2,8 @@ import React from 'react';
 import Layout from '../components/layout';
 import Contact from '../components/contact';
 import {FaTools} from 'react-icons/all';
+import { ImagesData } from '../components/imagesData';
+import ImageSlider from '../components/imageSlider';
 
 const Development = () => {
     return(
@@ -43,9 +45,7 @@ const Development = () => {
          </div>
         </div>
          <div className="developments-slide-show">
-            <img src="https://i.ibb.co/bPrL90Y/Jason-Hawkes-1807-original-Lo.jpg" className="development-slide-image"/>
-            <img src="https://i.ibb.co/bPrL90Y/Jason-Hawkes-1807-original-Lo.jpg" className="development-slide-image"/>
-            <img src="https://i.ibb.co/bPrL90Y/Jason-Hawkes-1807-original-Lo.jpg" className="development-slide-image"/>
+         <ImageSlider images={ImagesData} />
          </div>
          <h3 className="developments-contact-h3">For any enquiries, please fill in the contact form below</h3>
         <Contact />

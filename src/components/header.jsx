@@ -42,12 +42,12 @@ return (
             </div>
             </li>
             <li className="nav-link nav-hover">
-            <Link to="/">Our Services</Link>
+            <Link to="/development">Our Services</Link>
             <div className="dropdown dropdown-outservices">
                 <ul>
                     <li className="dropdown-link nav-hover"><Link to="/development">Development</Link></li>   
                     <div>
-                    <li className="dropdown-link nav-hover border-ignore"><Link to="/">Guarenteed Rent</Link>
+                    <li className="dropdown-link nav-hover border-ignore"><Link to="/guarenteed-rent">Guarenteed Rent</Link>
                     <div className="dropdown second">
                         <ul>
                             <li className="dropdown-link nav-hover"><Link to="/guarenteed-rent">Guarenteed Rent</Link></li>
@@ -61,7 +61,6 @@ return (
             </li>
             <li className="nav-link nav-hover"><Link to="/gallery">Gallery</Link></li>
             <li className="nav-link nav-hover"><Link to="/contact-us">Contact Us</Link></li>
-            <li className="nav-link nav-hover"><Link to="/test">Test</Link></li>
         </ul>
         <div className="burger" onClick={handleNavClick}>
             <div className="line1"></div>

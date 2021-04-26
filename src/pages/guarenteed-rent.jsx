@@ -33,7 +33,12 @@ const GuarenteedRent = () => {
                     <p>We will take care of the Assured short-hold tenancy agreement (AST). If they stop paying, leave without notice, damage the property or force us to take out an eviction order, we will incur this financial burden, not you.</p>
                     <p>guarenteed rent is precisely what it says on the tin; regardless of whether your property is left unoccupied, we'll ensure the agreed rent is paid every month and  may also be able to offer up to 2-months' rent in advance. We are here for you and your tenants 24/7, 365 days of the year so you don't have to worry about anything else. Our hands-on approach will mean your property will be adequately maintained giving you total peace of mind.</p>
                 </div>
+                <div className="contact-background">
+                <div className="contact-overlay">
+
                 <Contact />
+                </div>
+                </div>
             </div>
             </div>
         </Layout>

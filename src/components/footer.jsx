@@ -1,19 +1,19 @@
 import React from 'react';
-import { graphql, useStaticQuery } from 'gatsby'; 
+// import { graphql, useStaticQuery } from 'gatsby'; 
 import '../style/footer.css'
 
 const Footer = () => {
-    const data = useStaticQuery(graphql`
-    query MyQuery {
-        site {
-          siteMetadata {
-            author
-            description
-            title
-          }
-        }
-      }
-    `)
+    // const data = useStaticQuery(graphql`
+    // query MyQuery {
+    //     site {
+    //       siteMetadata {
+    //         author
+    //         description
+    //         title
+    //       }
+    //     }
+    //   }
+    // `)
     return ( 
         <footer>
           <ul className="footer-all-list">

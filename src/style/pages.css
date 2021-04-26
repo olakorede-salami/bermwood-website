@@ -215,6 +215,7 @@
 
 .our-story-background {
     background-image: url('https://i.ibb.co/bPrL90Y/Jason-Hawkes-1807-original-Lo.jpg');
+    background-size: cover;
     height: 65vh;
     width: 100vw;
     display: flex;
@@ -333,6 +334,7 @@
 .contact-background {
     background-image: url('https://i.ibb.co/bPrL90Y/Jason-Hawkes-1807-original-Lo.jpg');
     background-size: cover;
+    width: 100vw;
 }
 
 .contact-form-div {
@@ -355,7 +357,7 @@
 
 .inputs {
     color: black;
-    width: 80%;
+    width: 83%;
     height: 1rem;
     padding: 10px;
 }
@@ -395,6 +397,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.our-story-overlay {
+    background: rgba(3,46,84, 0.5);
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .developments-contact-h3 {
@@ -496,8 +508,23 @@ textarea::placeholder {
     width: 360px;
     height: 40vh;
     margin: 0px 10px 10px 0px;
-    opacity: 0.3;
+    opacity: 0.7;
 }
+
+.gallery-img-slider{
+    width: 25vw;
+    height: 40vh;
+    margin: 0px 1vw 10px 0vw;
+    opacity: 1;
+    cursor: pointer;
+    transition: ease 1000ms;
+}
+
+.gallery-slider {
+    max-width: 78vw;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 
 .gallery-img:hover{
     width: 400px;
@@ -889,6 +916,9 @@ textarea::placeholder {
         left: 82% !important;
         cursor: pointer;
     }
+    .gallery-img-slider {
+    height: 25vh !important;
+    }
   }
 
   @media only screen and (max-width: 385px) {
@@ -1106,3 +1136,21 @@ textarea::placeholder {
       display: flex;
       position: relative;
   }
+
+  .slider-dots {
+    text-align: center;
+  }
+  .slider-dot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 7px 0px;
+    background-color: #c4c4c4;
+  }
+
+  .slider-dot.active {
+    background-color: #b47d03;
+  }
+

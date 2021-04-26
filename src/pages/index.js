@@ -1,11 +1,12 @@
 import React, {useRef} from 'react';
 import { Link } from 'gatsby'; 
-import Layout from '../components/layout'
-import '../style/pages.css'
-import Testimonial from '../components/testimonialSlider'
+import Layout from '../components/layout';
+import '../style/pages.css';
+import Testimonial from '../components/testimonialSlider';
 import { TestimonialsData } from '../components/testimonialsData';
-import { ImagesData } from '../components/imagesData'
-import ImageSlider from '../components/imageSlider'
+import { ImagesData } from '../components/imagesData';
+import ImageSlider from '../components/imageSlider';
+
 
 const LandingPage = () => {
 
@@ -41,20 +42,15 @@ const LandingPage = () => {
         <p>"Extremely impressed with the transformation of my house. Bermwood genuinely helped turn my house into a home  my son loves it! The conversion was done to the highest standard and better than I imagined. I know now that if i was to sell my house i should be able to get more than i paid"</p>
         <Link to="/testimonials"><button className="btn">View More</button></Link>
       </div>
-      {/* <img src="https://i.ibb.co/bPrL90Y/Jason-Hawkes-1807-original-Lo.jpg" className="testimonials-image"/> */}
       <Testimonial testimony={TestimonialsData}/>
     </div>
     <div className="landing-gallery">
     <h1 className="landing-gallery-text">Gallery</h1>
     <div className="landing-gallery-div-images">
-    {/* <img src="https://i.ibb.co/bPrL90Y/Jason-Hawkes-1807-original-Lo.jpg" className="landing-gallery-image"/>
-    <img src="https://i.ibb.co/bPrL90Y/Jason-Hawkes-1807-original-Lo.jpg" className="landing-gallery-image"/>
-    <img src="https://i.ibb.co/bPrL90Y/Jason-Hawkes-1807-original-Lo.jpg" className="landing-gallery-image"/> */}
     <ImageSlider images={ImagesData} />
     </div>
     </div>
     <div className="footer-image" />
-    <div className="footer-image" /> 
     </Layout>
   )
 }
