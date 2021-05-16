@@ -14,7 +14,6 @@ const OurStory = () => {
             <p className="our-story-paragraph">Whether you are looking to invest in new build and refurbishment schemes, collaborate on bespoke projects, or are an existing landowner with a joint venture idea, Bermwood has the collective skills and experience to bring your idea to life. Do not hesitate to contact us for a no obligations consultation."</p>
             <div className="our-story-ceo">
             <h4>Founding Director, Levi Owusu</h4>
-            <p>(Insert Signature)</p>
             </div>
             </div>
             </div>
