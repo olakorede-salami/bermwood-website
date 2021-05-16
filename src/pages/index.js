@@ -8,7 +8,7 @@ import { ImagesData } from '../components/imagesData';
 import ImageSlider from '../components/imageSlider';
 import Seo from '../components/seo';
 
-const LandingPage = () => {
+const LandingPage = () => { 
 
   const refScroll = useRef(null)
   const scrollDown = () => {

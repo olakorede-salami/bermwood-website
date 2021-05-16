@@ -72,7 +72,6 @@ return (
                 <FaTimes className={navOpen ? 'responsive-menu-close' : 'responsive-menu-close-hidden'}/>
             </div>
             <div className="responsive-menu-icons">
-
             <div className="responsive-menu-icon"> 
             <Link to="/">
                 <AiFillHome className="home-icon icons"/>
