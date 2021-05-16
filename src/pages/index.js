@@ -6,7 +6,7 @@ import Testimonial from '../components/testimonialSlider';
 import { TestimonialsData } from '../components/testimonialsData';
 import { ImagesData } from '../components/imagesData';
 import ImageSlider from '../components/imageSlider';
-
+import Seo from '../components/seo';
 
 const LandingPage = () => {
 

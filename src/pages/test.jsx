@@ -14,8 +14,18 @@ const Test = () => {
     const handleNavClick = () => {
         setNavOpen(!navOpen)
     }
+
+    function componentToHex(c) {
+        var hex = c.toString(16);
+        console.log(hex)
+        return hex.length == 1 ? "0" + hex : hex;
+      }
+    
+    
+      
     return (  
         <Layout>
+            {componentToHex}
             <div className="burger" onClick={handleNavClick}>
             <div className="line1"></div>
             <div className="line2"></div>

@@ -665,13 +665,14 @@ textarea::placeholder {
     .responsive-menu-icons{
       display: flex;
       flex-wrap: wrap;
-      height: 100vh;
+      height: 60vh;
       justify-content: space-evenly;
       align-items: center;
+      margin: 0px;
     }
 
     .responsive-menu-icon {
-      margin: 0px 30px;
+      margin: 0px 50px;
       width: 75px;
       display: flex;
       flex-direction: column;
@@ -736,6 +737,7 @@ textarea::placeholder {
         flex-wrap: wrap;
         height: 80vh;
         justify-content: space-evenly;
+        margin: 0px;
       }
 
       .responsive-menu-icon {
@@ -859,7 +861,7 @@ textarea::placeholder {
       .responsive-menu-icons{
         display: flex;
         flex-wrap: wrap;
-        height: 100vh;
+        height: 85vh;
         justify-content: space-evenly;
         align-items: center;
       }
@@ -982,6 +984,7 @@ textarea::placeholder {
       }
       .responsive-menu-icons {
           align-items: center;
+          height: 90vh;
       }
 
       .testimonials-image  {
