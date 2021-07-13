@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 // import { Link } from 'gatsby'; 
 // import Layout from '../components/layout';
-// import '../style/pages.css';
+import '../style/pages.css';
 // import Testimonial from '../components/testimonialSlider';
 // import { TestimonialsData } from '../components/testimonialsData';
 // import { ImagesData } from '../components/imagesData';
