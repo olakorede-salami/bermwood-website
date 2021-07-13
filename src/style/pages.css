@@ -1177,3 +1177,8 @@ textarea::placeholder {
   body {
       background-color: #031534 !important;
   }
+  
+  iframe.coming-soon-vid {
+    height: 70vh !important;
+    margin: 70px !important;
+  }
