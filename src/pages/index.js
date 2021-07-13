@@ -8,7 +8,7 @@ import React, {useRef} from 'react';
 // import ImageSlider from '../components/imageSlider';
 // import Seo from '../components/seo';
 
-// const LandingPage = () => { 
+const LandingPage = () => { 
 
 //   const refScroll = useRef(null)
 //   const scrollDown = () => {
@@ -20,7 +20,11 @@ import React, {useRef} from 'react';
 
   return (
     <React.Fragment>
-      <h1>Coming Soon</h1>
+      <div className="coming-soon">
+        <iframe className="coming-soon-vid" src="https://streamable.com/e/94q43o?autoplay=1" frameborder="0" width="100%" height="100%" allowfullscreen></iframe>
+        <h1>Coming Soon</h1>
+        
+      </div>
     </React.Fragment>
     // <Layout>
     //   <div className="landing-main">
@@ -56,6 +60,6 @@ import React, {useRef} from 'react';
     // <div className="footer-image" />
     // </Layout>
   )
-// }
+}
 
 export default LandingPage

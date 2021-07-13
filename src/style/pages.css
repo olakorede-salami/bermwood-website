@@ -1164,3 +1164,16 @@ textarea::placeholder {
     background-color: #b47d03;
   }
 
+  .coming-soon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .coming-soon-img {
+      width: 50vw;
+  }
+
+  body {
+      background-color: #031534 !important;
+  }
