@@ -1168,6 +1168,7 @@ textarea::placeholder {
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
   }
 
   .coming-soon-img {
@@ -1175,10 +1176,54 @@ textarea::placeholder {
   }
 
   body {
-      background-color: #031534 !important;
+      background-color: #00142e !important;
   }
   
   iframe.coming-soon-vid {
     height: 70vh !important;
-    margin: 70px !important;
+    margin: 40px !important;
   }
+
+  .dot {
+      cursor: default;
+      display: inline;
+  }
+
+  .coming-soon-text {
+    position:relative;
+    top:10px;
+    left:10px;
+    font-size:50px;
+    font-weight:600;
+    opacity:0;
+    text-transform:uppercase;
+    animation:fade 2000ms ease-in-out forwards;
+    animation-iteration-count: infinite
+}
+
+  @keyframes fade {
+    0% {
+      top:10px;
+      left:10px;
+      filter:blur(15px);
+      opacity:0;
+    }
+    25% {
+      filter:blur(10px);
+      opacity:0.9;
+    }
+    75% {
+      top:0px;
+      left:0px;
+      filter:blur(0px);
+      opacity:1;
+    } 
+    100% {
+        top:0px;
+        left:0px;
+        filter:blur(0px);
+        opacity:1;
+      }  
+  }
+
+

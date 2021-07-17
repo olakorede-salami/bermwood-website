@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-// import { Link } from 'gatsby'; 
+import { Link } from 'gatsby'; 
 // import Layout from '../components/layout';
 import '../style/pages.css';
 // import Testimonial from '../components/testimonialSlider';
@@ -21,9 +21,8 @@ const LandingPage = () => {
   return (
     <React.Fragment>
       <div className="coming-soon">
-        <iframe className="coming-soon-vid" src="https://streamable.com/e/94q43o?autoplay=1" frameborder="0" width="100%" height="100%" allowfullscreen></iframe>
-        <h1>Coming Soon</h1>
-        
+        <img src="https://i.ibb.co/1Q3kC50/Estates-2.png" alt="Bermwood Logo" className="coming-soon-vid"/>
+        <h1 className="coming-soon-text">COMING SOON<Link to="/homepage" className="dot">.</Link></h1>
       </div>
     </React.Fragment>
     // <Layout>
